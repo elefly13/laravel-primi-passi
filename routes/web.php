@@ -25,4 +25,16 @@ Route::get('/', function () {
     ];
     return view('home', $contentHome);
     
-});
+})->name('homepage');
+
+Route::get('/su_di_noi', function () {
+    return view('su_di_noi');
+})->name('noi');
+
+Route::get('/portfolio', function () {
+    return view('portfolio');
+})->name('lavori');
+
+Route::get('/contatti', function () {
+    return view('contatti');
+})->name('indirizzo');
