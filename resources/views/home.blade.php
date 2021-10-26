@@ -11,10 +11,32 @@
 
         <!-- Styles -->
         <style>
-         
+         main {
+             width: 100%;
+             height: 100%;
+             text-align: center;
+         }
+         h1 {
+             font-size: 30px;
+         }
+         h3 {
+             font-size: 20px;
+         }
         </style>
     </head>
     <body>
+
+   <header>
+
+   </header>
+   <main>
+       <h1>{{ $titolo }}</h1>
+       <h3>{{ $sottotitolo }}</h3>
+       <p>{{ $paragrafo }}</p>
+   </main>
+
+
+
         
 
        
